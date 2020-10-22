@@ -8,7 +8,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 60%;
 }
 
 body {
@@ -17,7 +17,23 @@ body {
   position: relative;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f5f7;
+  background-color: #cccdce;
+}
+
+.card-title {
+  font-size: 2.3rem;
+}
+
+#intro {
+  height: 100vh;
+}
+
+i {
+  font-size: 3rem;
+}
+
+.cont-text {
+  font-size: 1.8rem;
 }
 
 .color-dark-gray {
@@ -30,6 +46,7 @@ body {
 
 .color-dark-green {
   color: #2a8861;
+  font-size: 3rem;
 }
 
 .svg-big {
@@ -44,20 +61,16 @@ body {
 }
 
 .about-title {
-  top: 200px;
+  top: 18vw;
 }
 
 .big-img {
   margin-left: -500;
 }
 
-.about-p {
-  font-size: 1.1rem;
-}
-
 .project-img {
   width: 26.8rem;
-  height: 15rem;
+  height: 18rem;
 }
 
 .contact {
@@ -73,4 +86,8 @@ body {
   object-fit: cover;
   width: 23rem;
   height: 12rem;
+}
+
+footer {
+  font-size: 1.5rem;
 }
