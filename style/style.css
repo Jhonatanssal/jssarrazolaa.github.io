@@ -8,6 +8,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 1rem;
 }
 
 body {
@@ -29,6 +30,11 @@ body {
 
 .color-dark-green {
   color: #2a8861;
+}
+
+.svg-big {
+  width: 90vw;
+  height: 100vh;
 }
 
 .logo {
@@ -54,8 +60,17 @@ body {
   height: 15rem;
 }
 
+.contact {
+  height: 75vh;
+}
+
+.bottom-illustration {
+  width: 15vw;
+  position: relative;
+}
+
 .bottom-logo {
   object-fit: cover;
-  width: 15rem;
-  height: 7rem;
+  width: 23rem;
+  height: 12rem;
 }
