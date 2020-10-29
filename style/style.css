@@ -24,10 +24,6 @@ body {
   font-size: 2.3rem;
 }
 
-#intro {
-  height: 100vh;
-}
-
 i {
   font-size: 3rem;
 }
@@ -61,7 +57,7 @@ i {
 }
 
 .about-title {
-  top: 18vw;
+  margin-top: 18%;
 }
 
 .big-img {
