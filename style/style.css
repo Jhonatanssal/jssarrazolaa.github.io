@@ -8,7 +8,6 @@
 
 html {
   box-sizing: border-box;
-  font-size: 60%;
 }
 
 body {
@@ -17,19 +16,11 @@ body {
   position: relative;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #cccdce;
-}
-
-.card-title {
-  font-size: 2.3rem;
+  background-color: #d9dbdd;
 }
 
 i {
-  font-size: 3rem;
-}
-
-.cont-text {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .color-dark-gray {
@@ -42,7 +33,10 @@ i {
 
 .color-dark-green {
   color: #2a8861;
-  font-size: 3rem;
+}
+
+#intro {
+  height: 100vh;
 }
 
 .svg-big {
@@ -57,7 +51,9 @@ i {
 }
 
 .about-title {
-  margin-top: 18%;
+  margin: auto;
+  position: absolute;
+  top: 28vh;
 }
 
 .big-img {
@@ -65,12 +61,16 @@ i {
 }
 
 .project-img {
-  width: 26.8rem;
-  height: 18rem;
+  object-fit: cover;
+  width: 28rem;
 }
 
 .contact {
   height: 75vh;
+}
+
+.contact-2 {
+  left: 4vw;
 }
 
 .bottom-illustration {
@@ -82,8 +82,4 @@ i {
   object-fit: cover;
   width: 23rem;
   height: 12rem;
-}
-
-footer {
-  font-size: 1.5rem;
 }

@@ -16,6 +16,7 @@
 </head>
 <body>
   <div class="container-fluid cont-text">
+    
     <nav class="navbar navbar-expand-lg w-100 navbar-light bg-light fixed-top justify-content-between">
       <a href="#intro"><img class="nav-logo logo navbar-brand" src="/img/icon.png" alt="logo"></a>
       <div class="midle-items w-md-25 d-flex justify-content-around float-right">
@@ -27,14 +28,14 @@
 
     <main class="d-flex flex-column align-items-center">
 
-      <div class="text-center w-100 d-flex flex-column align-items-center mb-5" id="intro">
+      <div class="text-center w-100 d-flex flex-column align-items-center d-block" id="intro">
 
-        <div class="about-title position-absolute bg-white mb-5">
+        <div class="about-title position-absolute bg-light p-3 rounded my-auto mb-5 col-12 col-sm-9 col-md-6 col-lg-4">
             <h2 class="font-weight-bolder color-dark-gray text-center">Hey there. I'm Jhonatan!</h2>
             <h2 class="font-weight-bolder color-dark-green text-center">I'm a web developer</h2>
             <p class="color-dark-gray text-center about-p">
-              I can help you build a product, feature, or website. Look through <br>
-              some of my work and experience! If you like what you see <br>
+              I can help you build a product, feature, or website. Look through
+              some of my work and experience! If you like what you see
               and have a project you need to be coded, don't hesitate to contact me.
             </p>
             <div class="">
@@ -49,7 +50,7 @@
 
         </div>
 
-        <div class="big-img mt-5 w-100 container-fluid">
+        <div class="big-img mt-5 w-100 container-fluid d-none d-md-inline">
           <svg class="svg-bg" viewBox="0 0 1413 1037" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M128.813 718.732L400.472 541.011" stroke="#A5ADBA" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 1"/>
             <path d="M47.855 479.828L356.78 418.062" stroke="#A5ADBA" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 1"/>
@@ -225,7 +226,7 @@
 
       <div class="portfolio container my-5 text-center" id="portfolio">
 
-        <h2 class="color-dark-green font-weight-bold text-center mt-5">My Recent Works</h2>
+        <h2 class="color-dark-green font-weight-bold text-center mt-5 bg-light col-100 col-sm-8 col-md-5 p-2 rounded mx-auto">My Recent Works</h2>
 
         <div class="projects d-flex flex-wrap justify-content-around">
 
@@ -241,7 +242,7 @@
                   <a href="https://glacial-meadow-24172.herokuapp.com/" target="blank_">Twitter Redesign</a>
                 </p>
                 <div>
-                  <p><small class="mx-1 p-1 bg-warning text-white rounded">Ruby on rails</small><br><small class="mx-1 p-1 bg-warning text-white rounded">HTML</small><small class="mx-1 p-1 bg-warning text-white rounded">Bootstrap</small><small class="mx-1 p-1 bg-warning text-white rounded">Rspec</small><small class="mx-1 p-1 bg-warning text-white rounded">Rubocop</small><small class="mx-1 p-1 bg-warning text-white rounded">Bulma</small></p>
+                  <p class="d-flex flex-wrap justify-content-center"><small class="mx-1 p-1 bg-warning text-white rounded">Ruby on rails</small><br><small class="mx-1 p-1 bg-warning text-white rounded">HTML</small><small class="mx-1 p-1 bg-warning text-white rounded">Bootstrap</small><small class="mx-1 p-1 bg-warning text-white rounded">Rspec</small><small class="mx-1 p-1 bg-warning text-white rounded">Rubocop</small><small class="mx-1 p-1 bg-warning text-white rounded">Bulma</small></p>
                 </div>
                 <a href="https://github.com/jssarrazolaa/Twitter-RoR" class="btn btn-primary" target="blank_">See Project</a>
               </div>
@@ -254,7 +255,7 @@
                 <p class="card-text">Telegram Bot was built as the Assessment of Ruby section to show skills learned.
                 This bot receives a country name as input and returns the actual hour in that country.</p>
                 <div>
-                  <p><small class="mx-1 p-1 bg-warning text-white rounded">Ruby</small><small class="mx-1 p-1 bg-warning text-white rounded">Telegram</small><small class="mx-1 p-1 bg-warning text-white rounded">Rspec</small><small class="mx-1 p-1 bg-warning text-white rounded">Rubocop</small></p>
+                  <p class="d-flex flex-wrap justify-content-center"><small class="mx-1 p-1 bg-warning text-white rounded">Ruby</small><small class="mx-1 p-1 bg-warning text-white rounded">Telegram</small><small class="mx-1 p-1 bg-warning text-white rounded">Rspec</small><small class="mx-1 p-1 bg-warning text-white rounded">Rubocop</small></p>
                 </div>
                 <a href="https://github.com/jssarrazolaa/Telegram-Bot" class="btn btn-primary" target="blank_">See Project</a>
               </div>
@@ -270,7 +271,7 @@
                   <a href="https://jssarrazolaa.github.io/Bootstrap-Project/" target="blank_">Bootstrap Project</a>
                 </p>
                 <div>
-                  <p><small class="mx-1 p-1 bg-warning text-white rounded">CSS3</small><small class="mx-1 p-1 bg-warning text-white rounded">HTML</small><small class="mx-1 p-1 bg-warning text-white rounded">Bootstrap</small></p>
+                  <p class="d-flex flex-wrap justify-content-center"><small class="mx-1 p-1 bg-warning text-white rounded">CSS3</small><small class="mx-1 p-1 bg-warning text-white rounded">HTML</small><small class="mx-1 p-1 bg-warning text-white rounded">Bootstrap</small></p>
                 </div>
                 <a href="https://github.com/jssarrazolaa/Bootstrap-Project" target="blank_" class="btn btn-primary">See Project</a>
               </div>
@@ -290,7 +291,7 @@
 
         <div class="d-flex justify-content-between">
 
-          <div class="illustration-1">
+          <div class="illustration-1 d-sm-inline d-none">
             <svg class="bottom-illustration" viewBox="0 0 237 131" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M-3.57568 130.819L224.862 127.866L136.341 103.513L146.318 82.4073L202.935 74.6376L188.433 71.2746L149.451 69.5352L-3.57568 130.819Z" fill="#172B4D"/>
               <path d="M122.766 23.0336L115.805 23.1496L57.9126 1.58008L123.347 38.6889L134.02 29.8756L122.766 23.0336Z" fill="#36B37E"/>
@@ -325,7 +326,7 @@
             </svg>
           </div>
   
-          <div class="about-me my-5 w-50 text-center">
+          <div class="about-me my-5 col-12 col-sm-8 text-center">
   
             <h2 class="text-center color-dark-green font-weight-bold my-5">About me</h2>
   
@@ -338,7 +339,7 @@
   
           </div>
   
-          <div class="illustration-2">
+          <div class="illustration-2 d-sm-inline d-none">
             <svg class="bottom-illustration" viewBox="0 0 224 245" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M165.09 211.065L264.879 245.001H121.704L103.348 242.998L94.4486 237.435L124.819 211.065H165.09Z" fill="#172B4D"/>
               <path d="M151.963 148.758V143.418C151.963 143.418 140.282 120.275 138.614 120.052C136.945 119.83 1.22351 63.3086 1.22351 63.3086L52.9533 164.001L73.4228 185.809L151.963 148.758Z" fill="white" stroke="#36B37E" stroke-width="1.35786" stroke-miterlimit="10"/>
@@ -410,7 +411,7 @@
 
       </div>
 
-      <div class="contact d-flex align-items-center mb-5" id="contact">
+      <div class="contact d-flex align-items-center mb-5 justify-content-between w-100" id="contact">
 
         <div class="bottom-illustration1">
           <svg class="bottom-illustration" viewBox="-50 -50 194 352" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -435,13 +436,13 @@
           </svg>            
         </div>
 
-        <div class="d-flex flex-column align-items-center">
+        <div class="d-flex flex-column contact-2 align-items-center position-absolute text-center mx-auto col-11">
 
           <h2 class="color-dark-green font-weight-bold text-center">Contact</h2>
 
-          <h4 class="color-dark-gray text-center w-50">
+          <p class="color-dark-gray text-center w-50">
             I'm always interested in hearing about new projects and challenges, so if you like what you saw, please don't hesitate to get in touch with me.
-          </h4>
+          </p>
 
           <div class="mt-5">
             <a class="text-secondary mx-2" href="https://www.linkedin.com/in/jhonatansarrazola/" target="blank_"><i class="fab fa-linkedin-in fa-md-3x"></i></a>
