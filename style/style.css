@@ -35,6 +35,11 @@ i {
   color: #2a8861;
 }
 
+.bg-green {
+  background-color: #4daa83 !important;
+  border: none !important;
+}
+
 #intro {
   height: 100vh;
 }
